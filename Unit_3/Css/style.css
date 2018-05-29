@@ -1,0 +1,31 @@
+body{
+	background-color: white;
+	}
+h1 {
+	color: #1A72DB;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#logo{
+	display: block;
+	margin-left: all;
+	max-height: 100px;
+	max-width: 100px;
+	}
+#coffee-Club{
+	display: block;
+	margin-left: 5%;
+	size: width"400px" height"400px";
+}
+#wholesale-program{
+	display: block;
+	margin-left: 40%;
+	size: width"400px" height"400px";
+}
+#Photo-Gallery{
+	display: block;
+	margin-left: 75%;
+	size: width"400px" height"400px";
+}
