@@ -1,9 +1,9 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body{
 	background-color: white;
 	}
 h1 {
 	color: #1A72DB;
-	text-align: center;
 	font-size: 60px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -32,4 +32,13 @@ h1 {
 .Menu{
 	display: block;
 	font-size: 20px;
+}
+#intro {
+    background: url(../Images/coffee-mug.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em 0;
+    height: 85vh;
+    text-align: center;
+    background-position: center;
 }
