@@ -34,10 +34,26 @@ h1 {
 	font-size: 20px;
 }
 #twitter{
-		height: 100px;
-		width: 100px;
+		height: 50px;
+		width: 50px;
 		overflow: hidden;
 }
+#facebook{
+		height: 50px;
+		width: 50px;
+		overflow: hidden;
+}
+#linkedin{
+		height: 50px;
+		width: 50px;
+		overflow: hidden;
+}
+#instagram{
+		height: 50px;
+		width: 50px;
+		overflow: hidden;
+}
+
 #intro {
     background: url(../images/coffee-mug.jpg);
     background-repeat: no-repeat;
