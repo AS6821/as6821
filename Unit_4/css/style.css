@@ -11,7 +11,7 @@ h1 {
 #logo{
 	display: block;
 	margin-left: all;
-	max-height: 100px;
+	max-height: 100px; 
 	max-width: 100px;
 	}
 #coffee-Club1{
@@ -63,4 +63,12 @@ h1 {
     text-align: center;
     background-position: center;
 }
-	
+header{
+	text-align: right;
+	padding-right: 2em;
+	margin-top: 1em;
+}
+footer{
+	text-align: center;	
+	padding-top: 3em;
+}
