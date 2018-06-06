@@ -64,6 +64,9 @@ h1 {
 }
 #questions{
 	text-align: left;
+	margin-left: 4em;
+	margin-right: 4em;
+	line-height: 2em;
 }
 #intro {
     background: url(../images/coffee-mug.jpg);
