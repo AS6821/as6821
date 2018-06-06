@@ -41,19 +41,22 @@ h1 {
 		overflow: hidden;
 }
 #facebook{
-		height: 50px;
-		width: 50px;
-		overflow: hidden;
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
 }
 #linkedin{
-		height: 50px;
-		width: 50px;
-		overflow: hidden;
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
 }
 #instagram{
 		height: 50px;
 		width: 50px;
 		overflow: hidden;
+}
+#social_media {
+	align-items: center;
 }
 
 #intro {
