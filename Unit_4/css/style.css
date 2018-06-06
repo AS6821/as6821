@@ -18,8 +18,13 @@ h1 {
 	}
 #coffee-Club1{
 	display: block;
-	margin-left: 5%;
-	size: width"400px" height"400px";
+	margin-left: 2em;
+}
+#coffee-Club{
+	text-align: right;
+	margin-left: 4em;
+	margin-right: 4em;
+	line-height: 2em;
 }
 #wholesale-program{
 	display: block;
