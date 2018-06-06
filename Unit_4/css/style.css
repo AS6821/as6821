@@ -1,4 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 body{
 	background-color: white;
 	}
@@ -62,6 +64,7 @@ h1 {
     height: 85vh;
     text-align: center;
     background-position: center;
+    border-width: 2em;
 }
 header{
 	text-align: right;
