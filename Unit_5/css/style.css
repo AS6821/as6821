@@ -32,14 +32,10 @@ h1 {
 	margin-left: 40%;
 	size: width"400px" height"400px";
 }
-#Photo-Gallery{
-	display: block;
-	margin-left: 75%;
-	size: width"400px" height"400px";
-}
-#gallery1{
-	border-spacing: 3em;
-	white-space: 3em;
+.column{
+	float: left;
+    width: 25%;
+    padding: 5px;
 }
 .Menu{
 	display: block;
