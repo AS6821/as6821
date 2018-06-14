@@ -1,5 +1,5 @@
-* { margin:0; padding:0; box-sizing:border-box; }
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+* { margin:0; padding:0; box-sizing:border-box; }
 
 body{
 	background-color: white;
@@ -32,9 +32,14 @@ h1 {
 	margin-left: 40%;
 	size: width"400px" height"400px";
 }
+.row{
+	float: all;
+	width: 25%;
+	padding: 2px;
+}
 .column{
-	float: left;
-    width: 25%;
+    position: relative;
+    overflow: hidden;
     padding: 5px;
 }
 .Menu{
@@ -111,10 +116,29 @@ header{
 nav{
 	text-align: right;
 	background-color: E8C66A;
+	padding: 10px;
 
 }
 footer{
 	text-align: center;	
 	padding-top: 3em;
 	background-color: #FF957E;
+	border: 1px black solid;
+}
+
+div, section{
+	background-color: #FF957E;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black	solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black	solid;
+	padding: 20px;
 }
