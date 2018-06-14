@@ -15,6 +15,7 @@ h1 {
 	margin-left: all;
 	max-height: 100px; 
 	max-width: 100px;
+	float: left;
 	}
 #coffee-Club1{
 	display: block;
@@ -100,17 +101,24 @@ h1 {
 	margin-left: 15em;
 	margin-right: 15em;
 }
+#wrapper{
+
+}
 header{
 	font-family: 'Sunflower';
 	padding-right: 2em;
 	margin-top: 1em;
 	padding-bottom: 5em;
+	background-color: #FFED74;
+	display: block;	
 }
 nav{
 	text-align: right;
+	background-color: E8C66A;
 
 }
 footer{
 	text-align: center;	
 	padding-top: 3em;
+	background-color: #FF957E;
 }
