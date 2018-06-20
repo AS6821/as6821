@@ -28,9 +28,7 @@ h1 {
 	float: left;
 }
 #wholesale-program{
-	display: block;
-	margin-left: 40%;
-	size: width"400px" height"400px";
+	width: 60%;
 }
 .column {
     float: left;
@@ -109,15 +107,9 @@ h1 {
 }
 header{
 	font-family: 'Sunflower';
-	padding-right: 2em;
-	margin-top: 1em;
-	padding-bottom: 5em;
-	display: block;	
 }
 nav{
 	text-align: right;
-	padding: 10px;
-
 }
 footer{
 	text-align: center;	
