@@ -18,14 +18,14 @@ h1 {
 	float: left;
 	}
 #coffee-Club1{
-	display: block;
-	margin-left: 2em;
+	width: 100%;
 }
 #coffee-Club{
 	text-align: right;
 	margin-left: 4em;
 	margin-right: 4em;
 	line-height: 2em;
+	float: left;
 }
 #wholesale-program{
 	display: block;
@@ -34,11 +34,10 @@ h1 {
 }
 .column {
     float: left;
-    width: 25%;
-    padding: 5px;
+    width: 98%;
+    padding: 2%;
     overflow: hidden;
 }
-
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
@@ -85,7 +84,7 @@ h1 {
 #intro {
     background: url(../images/coffee-mug.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     padding: 5em 0;
     height: 85vh;
     text-align: center;
@@ -123,17 +122,20 @@ nav{
 footer{
 	text-align: center;	
 	padding-top: 3em;
-	border: 1px black solid;
 }
 
-div, section{
+section{
 	padding: 20px;
 }
 
-article {
-	padding: 20px;
+div{
+  font-size: 1.2em;
+  width: 31%;
+  padding: 2%;
+  display: inline-block;
 }
 
 aside {
 	padding: 20px;
+	text-align: center;
 }
