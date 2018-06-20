@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+	background-color: white;
+	}
+h1 {
+	color: #1A72DB;
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#logo{
+	display: block;
+	margin-left: all;
+	max-height: 100px; 
+	max-width: 100px;
+	float: left;
+	}
+#coffee-Club1{
+	display: block;
+	margin-left: 2em;
+}
+#coffee-Club{
+	text-align: right;
+	margin-left: 4em;
+	margin-right: 4em;
+	line-height: 2em;
+}
+#wholesale-program{
+	display: block;
+	margin-left: 40%;
+	size: width"400px" height"400px";
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.Menu{
+	display: block;
+	font-size: 20px;
+}
+#twitter{
+		height: 50px;
+		width: 50px;
+		overflow: hidden;
+}
+#facebook{
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+}
+#linkedin{
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+}
+#instagram{
+		height: 50px;
+		width: 50px;
+		overflow: hidden;
+}
+#social_media {
+	padding-top: 2em;
+	padding-left: 43em;
+}
+#career{
+	text-align: center;
+}
+#questions{
+	text-align: left;
+	margin-left: 4em;
+	margin-right: 4em;
+	line-height: 2em;
+}
+#intro {
+    background: url(../images/coffee-mug.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em 0;
+    height: 85vh;
+    text-align: center;
+    background-position: center;
+    border-width: 2em;
+}
+#information {
+	text-align: center;
+	font-size: 45px;
+}
+#calendar{
+	align-content: center;
+}
+#ourstory {
+	text-align: center;
+	font-size: 1em;
+	margin-left: 15em;
+	margin-right: 15em;
+}
+#wrapper{
+
+}
+header{
+	font-family: 'Sunflower';
+	padding-right: 2em;
+	margin-top: 1em;
+	padding-bottom: 5em;
+	display: block;	
+}
+nav{
+	text-align: right;
+	padding: 10px;
+
+}
+footer{
+	text-align: center;	
+	padding-top: 3em;
+	border: 1px black solid;
+}
+
+div, section{
+	padding: 20px;
+}
+
+article {
+	padding: 20px;
+}
+
+aside {
+	padding: 20px;
+}
