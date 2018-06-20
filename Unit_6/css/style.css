@@ -2,7 +2,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body{
-	background-color: white;
+	background-color: #915050;
 	}
 h1 {
 	color: #1A72DB;
@@ -30,12 +30,16 @@ h1 {
 #wholesale-program{
 	width: 60%;
 }
+#guitar{
+	width: 20%;
+}
 .column {
     float: left;
     width: 98%;
     padding: 2%;
     overflow: hidden;
 }
+
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
@@ -107,6 +111,7 @@ h1 {
 }
 header{
 	font-family: 'Sunflower';
+	background-color: white;
 }
 nav{
 	text-align: right;
@@ -115,19 +120,9 @@ footer{
 	text-align: center;	
 	padding-top: 3em;
 }
-
-section{
-	padding: 20px;
-}
-
 div{
   font-size: 1.2em;
   width: 31%;
   padding: 2%;
   display: inline-block;
-}
-
-aside {
-	padding: 20px;
-	text-align: center;
 }
