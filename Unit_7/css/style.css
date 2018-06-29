@@ -32,13 +32,17 @@ h1 {
 	display: block;
 	margin: auto;
 }
+#photos{
+	width: 70%;
+	padding: .15em;
+}
 #guitar{
-	width: 20%;
+	width: 25%;
 }
 .column {
-    float: left;
-    width: 98%;
-    padding: .25em;
+	width: 33%;
+    float: right;
+    padding: .15em;
 }
 
 /* Clearfix (clear floats) */
@@ -50,30 +54,6 @@ h1 {
 .Menu{
 	display: block;
 	font-size: 20px;
-}
-#twitter{
-		height: 50px;
-		width: 50px;
-		overflow: hidden;
-}
-#facebook{
-	height: 50px;
-	width: 50px;
-	overflow: hidden;
-}
-#linkedin{
-	height: 50px;
-	width: 50px;
-	overflow: hidden;
-}
-#instagram{
-		height: 50px;
-		width: 50px;
-		overflow: hidden;
-}
-#social_media {
-	padding-top: 2em;
-	padding-left: 43em;
 }
 #career{
 	text-align: center;
@@ -126,7 +106,7 @@ footer{
 	padding-top: 3em;
 }
 div{
-  width: 31%;
-  padding: 2%;
-  display: inline-block;
+  width: 33.33%;
+  padding: .2em;
+  float: left;
 }
