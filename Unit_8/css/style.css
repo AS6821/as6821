@@ -62,7 +62,7 @@ body{
     width: 48%;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1360px) {
 
   nav {
     display: block;
@@ -74,21 +74,24 @@ body{
   header{
     float: none;
   }  
+}
 
-  #intro{
-    text-align: center;
-    float: left;
-  }
-
-  }
-
-  @media only screen and (max-width: 970px) {
+@media only screen and (max-width: 960px) {
 
   nav {
-    display: inline-block;
+    display: block;
     text-align: center;
   }
- 
-
- 
+   nav a {
+    margin: 0 .2em 0em;
+    display: block;
+    font-size: 2em;
+  }
+  header{
+    float: none;
+  }  
+  h1{
+    font-size: 1em;
+  }
+  
 }
