@@ -7,7 +7,7 @@
 
 h1 {
   color: #1A72DB;
-  font-size: 5em;
+  font-size: 5vw;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -25,21 +25,25 @@ div {
   text-align: justify;
 }
 
-footer {
+footer{
+  text-align: center;
+}
+
+#closing {
   clear: both;
   text-align: center;
 }
+
 
 .column {
   width: 25%;
   float: left;
   padding: .15em;
 }
+#content{
+background-color: #c95e5a;
 
-body {
-  background-color: yellow;
 }
-
 #intro {
   background: url(../images/coffee-mug.jpg);
   background-repeat: no-repeat;
@@ -60,30 +64,24 @@ body {
 
 @media only screen and (max-width: 1360px) {
   nav {
-    display: block;
     text-align: center;
   }
   nav a {
     margin: 0 .2em 0em;
   }
+
   header {
     float: none;
+
   }
 }
 
 @media only screen and (max-width: 960px) {
-  nav {
-    display: block;
-    text-align: center;
-  }
   nav a {
-    margin: 0 .2em 0em;
+   
     display: block;
     font-size: 2em;
-  }
-  header {
-    float: none;
-  }
+ 
   h1 {
     font-size: 1em;
   }
